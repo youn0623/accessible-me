@@ -22,6 +22,7 @@ h6 {
 
 img {
   width: 100%;
+  border: 2px solid black;
 }
 
 .main-nav ul {
@@ -60,7 +61,7 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: white;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
@@ -68,4 +69,34 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+a{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #F5F5F5; 
+    color: #000000; 
+    border: 2px solid #000000; 
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+ul, li{
+  margin-right: 5px;
+}
+.UL li:last-child {
+  margin-right: 0;
 }
